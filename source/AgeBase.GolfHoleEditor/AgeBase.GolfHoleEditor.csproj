@@ -225,6 +225,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="GolfHoleEditorController.cs" />
+    <Compile Include="GolfHoleEditorPreValueEditor.cs" />
+    <Compile Include="GolfHoleEditorPropertyEditor.cs" />
+    <Compile Include="GolfHoleEditorRouteConfig.cs" />
+    <Compile Include="GolfHoleEditorStartupHandler.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
