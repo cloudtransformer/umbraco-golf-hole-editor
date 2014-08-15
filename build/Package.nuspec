@@ -10,8 +10,8 @@
     <projectUrl>https://agebase.co.uk/blog/golf-hole-editor-for-umbraco/</projectUrl>
     <iconUrl>https://agebase.co.uk/media/14030/nuget-logo.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>The Golf Hole Editor package...</description>
-    <summary>The Golf Hole Editor package...</summary>
+    <description>The Golf Hole Editor package is an Umbraco data type for creating golf hole information. This data type could be used on a golf club website for displaying course information. An editor can configure each hole's tees and it's par, stroke index and distances. The data type can also accommodate for different numbers of tees, holes and pars.</description>
+    <summary>The Golf Hole Editor package is an Umbraco data type for creating golf hole information.</summary>
     <releaseNotes>Initial NuGet package release.</releaseNotes>
     <copyright>Copyright 2014</copyright>
     <tags>umbraco golf hole editor datatype</tags>
