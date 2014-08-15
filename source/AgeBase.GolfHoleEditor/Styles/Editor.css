@@ -1,0 +1,78 @@
+﻿.ghe-tabs {
+    background: #f8f8f8;
+    border: 1px solid #d9d9d9;
+    -webkit-border-top-right-radius: 2px;
+    border-top-right-radius: 2px;
+    -webkit-border-top-left-radius: 2px;
+    border-top-left-radius: 2px;
+    display: block;
+    float: left;
+    width: 100%;
+}
+
+    .ghe-tabs ul {
+        list-style-type: none;
+        margin: 0;
+    }
+
+    .ghe-tabs li {
+        display: inline-block;
+        padding: 5px 8px 4px;
+        color: #555;
+        border-right: 1px solid #d9d9d9;
+        float: left;
+    }
+
+        .ghe-tabs li:hover {
+            cursor: pointer;
+            color: #000;
+        }
+
+        .ghe-tabs li.active {
+            background: #fff;
+            color: #000;
+        }
+
+.ghe-tees {
+    border: 1px solid #d9d9d9;
+    border-top: none;
+    -ms-border-bottom-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+    -ms-border-bottom-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+    background: #fff;
+    display: block;
+    float: left;
+    width: 100%;
+}
+
+.ghe-tee {
+    display: none;
+    padding: 16px 16px 6px;
+    float: left;
+}
+
+    .ghe-tee.active {
+        display: block;
+    }
+
+    .ghe-tee input, 
+    .ghe-tee select {
+        float: left;
+        margin-bottom: 10px;
+        width: 150px;
+    }
+
+    .ghe-tee input {
+        width: 136px;
+    }
+
+    .ghe-tee label {
+        clear: both;
+        float: left;
+        padding-left: 0;
+        width: 90px;
+        height: 30px;
+        margin: 0;
+        line-height: 30px;
+    }

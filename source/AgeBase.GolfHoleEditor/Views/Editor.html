@@ -1,5 +1,19 @@
-﻿<div ng-controller="AgeBase.GolfHoleEditor">
-    <p>
-        {{test}}
-    </p>
+﻿<div id="ghe-{{model.id}}" class="ghe" ng-controller="AgeBase.GolfHoleEditor">
+    <div class="ghe-tabs">
+        <ul>
+            <li ng-repeat="tee in model.value" ng-class="{active : isTeeActive(tee.name)}">
+                <a ng-click="showTee(tee.name)">{{tee.name}}</a>
+            </li>
+        </ul>
+    </div>
+    <div class="ghe-tees">
+        <div ng-repeat="tee in model.value" class="ghe-tee" ng-class="{active : isTeeActive(tee.name)}">
+            <label>Par</label>
+            <select ng-model="tee.par" ng-options="par as par for par in pars"></select>
+            <label>Stroke Index</label>
+            <select ng-model="tee.strokeIndex" ng-options="hole as hole for hole in holes"></select>
+            <label>Distance</label>
+            <input type="number" min="0" max="1000" ng-model="tee.distance" />
+        </div>
+    </div>
 </div>

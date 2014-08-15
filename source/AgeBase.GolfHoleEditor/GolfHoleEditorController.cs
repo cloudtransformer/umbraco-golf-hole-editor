@@ -22,7 +22,7 @@ namespace AgeBase.GolfHoleEditor
             if (fileId.EndsWith(".html"))
                 return "text/html";
 
-            return fileId.EndsWith(".css") ? "text/stylesheet" : "text";
+            return fileId.EndsWith(".css") ? "text/css" : "text";
         }
     }
 }
