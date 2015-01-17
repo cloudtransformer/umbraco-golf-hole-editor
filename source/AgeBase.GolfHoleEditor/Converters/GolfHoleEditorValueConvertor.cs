@@ -28,7 +28,12 @@ namespace AgeBase.GolfHoleEditor.Converters
             if (source == null)
                 return null;
 
-            return UmbracoContext.Current == null ? null : JsonConvert.DeserializeObject<GolfTees>(source.ToString());
+            var settings = new JsonSerializerSettings
+            {
+                NullValueHandling = NullValueHandling.Ignore
+            };
+
+            return UmbracoContext.Current == null ? null : JsonConvert.DeserializeObject<GolfTees>(source.ToString(), settings);
         }
 
         /// <summary>
