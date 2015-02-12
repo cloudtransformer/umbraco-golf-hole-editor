@@ -3,7 +3,7 @@
   <metadata>
     <title>Golf Hole Editor</title>
     <id>AgeBase.GolfHoleEditor</id>
-    <version>1.0.1</version>
+    <version>1.0.2</version>
     <authors>AgeBase</authors>
     <owners>AgeBase</owners>
     <licenseUrl>http://www.opensource.org/licenses/mit-license.php</licenseUrl>
@@ -21,5 +21,8 @@
   </metadata>
   <files>
     <file src="..\source\AgeBase.GolfHoleEditor\bin\AgeBase.GolfHoleEditor.dll" target="lib\AgeBase.GolfHoleEditor.dll" />
+    <file src="..\source\AgeBase.GolfHoleEditor\Controllers\Editor.js" target="content\App_Plugins\AgeBase.GolfHoleEditor\Editor.js" />
+    <file src="..\source\AgeBase.GolfHoleEditor\Styles\Editor.css" target="content\App_Plugins\AgeBase.GolfHoleEditor\Editor.css" />
+    <file src="..\source\AgeBase.GolfHoleEditor\Views\Editor.html" target="content\App_Plugins\AgeBase.GolfHoleEditor\Editor.html" />
   </files>
 </package>

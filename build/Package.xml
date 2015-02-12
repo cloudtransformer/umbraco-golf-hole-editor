@@ -6,11 +6,26 @@
       <orgPath>/bin</orgPath>
       <orgName>AgeBase.GolfHoleEditor.dll</orgName>
     </file>
+    <file>
+      <guid>Editor.css</guid>
+      <orgPath>/App_Plugins/AgeBase.GolfHoleEditor</orgPath>
+      <orgName>Editor.css</orgName>
+    </file>
+    <file>
+      <guid>Editor.css</guid>
+      <orgPath>/App_Plugins/AgeBase.GolfHoleEditor</orgPath>
+      <orgName>Editor.css</orgName>
+    </file>
+    <file>
+      <guid>Editor.css</guid>
+      <orgPath>/App_Plugins/AgeBase.GolfHoleEditor</orgPath>
+      <orgName>Editor.css</orgName>
+    </file>
   </files>
   <info>
     <package>
       <name>AgeBase: Golf Hole Editor</name>
-      <version>1.0.1</version>
+      <version>1.0.2</version>
       <license url="http://opensource.org/licenses/MIT">MIT License</license>
       <url>http://agebase.co.uk/</url>
       <requirements>

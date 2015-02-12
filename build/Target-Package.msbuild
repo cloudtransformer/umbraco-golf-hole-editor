@@ -17,6 +17,9 @@
     <MakeDir Directories="$(OutputFolder)" />
     <Copy SourceFiles="$(PackageXmlFile)" DestinationFolder="$(OutputFolder)" />
     <Copy SourceFiles="$(ProjectFolder)\bin\$(ProjectName).dll" DestinationFolder="$(OutputFolder)" />
+    <Copy SourceFiles="$(ProjectFolder)\Controllers\Editor.js" DestinationFolder="$(OutputFolder)" />
+    <Copy SourceFiles="$(ProjectFolder)\Styles\Editor.css" DestinationFolder="$(OutputFolder)" />
+    <Copy SourceFiles="$(ProjectFolder)\Views\Editor.html" DestinationFolder="$(OutputFolder)" />
   </Target>
   <Target Name="Compress">
     <ItemGroup>
